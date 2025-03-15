@@ -7,6 +7,12 @@
     <title>OgaTomo Systems - アプリケーション開発系個人事業主</title>
     <meta name="description" content="OgaTomo Systemsは小川智也という中学1年生の個人事業主です。アプリケーション開発や個人ブログの運営をしております。">
     <link rel="canonical" href="https://systems.ogatomo.net">
+    <meta property="og:title" content="OgaTomo Systems - アプリケーション開発系個人事業主">
+    <meta property="og:description" content="OgaTomo Systemsは小川智也という中学1年生の個人事業主です。アプリケーション開発や個人ブログの運営をしております。">
+    <meta property="og:image" content="https://systems.ogatomo.net/ogasys-ogp.webp">
+    <meta property="og:url" content="https://systems.ogatomo.net">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#7086BD">
     <style>
         html,
         body {
@@ -14,6 +20,9 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Hiragino Kaku Gothic Pro', 'Noto Sans', sans-serif;
         }
 
         p {
@@ -32,6 +41,7 @@
 
         #app {
             margin: 2em;
+            flex: 1;
         }
 
         #top {
@@ -215,7 +225,7 @@
             </svg>
         </div>
         <nav>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
             <a href="https://ogatomo.net/contact">Contact</a>
             <a href="https://ogatomo.net">Tomoyan's Blog</a>
         </nav>
