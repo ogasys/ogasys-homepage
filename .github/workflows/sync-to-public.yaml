@@ -33,6 +33,7 @@ jobs:
                   repository: ogasys/ogasys-homepage
                   path: public
                   token: ${{ secrets.GITHUB_TOKEN }}
+                  ref: public
 
             - name: Sync files to public repository
               run: |
@@ -42,4 +43,4 @@ jobs:
                   git config user.email "github-actions@github.com"
                   git add .
                   git commit -m "Sync from main repo" || echo "No changes to commit"
-                  git push origin main
+                  git push origin public
