@@ -30,7 +30,7 @@ jobs:
             - name: Checkout public repository
               uses: actions/checkout@v4
               with:
-                  repository: your-username/public-repo
+                  repository: ogasys/ogasys-homepage
                   path: public
                   token: ${{ secrets.GITHUB_TOKEN }}
 
